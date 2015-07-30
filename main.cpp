@@ -1,12 +1,9 @@
-#include <QCoreApplication>
+#include <iostream>
 
-int main(int argc, char *argv[])
+int main() // always starts here
 {
-    QCoreApplication a(argc, argv);
-    // this is my first commit
-    // my second commit
-    // 3
-    //4
-    // 5
-    return a.exec();
+
+    std::cout << "Hello World" << std::endl;
+    system("pause");
+    return 0;
 }
